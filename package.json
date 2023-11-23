@@ -1,0 +1,40 @@
+{
+  "name": "camunda-modeler-toggle-canvas-grid-plugin",
+  "version": "1.0.0",
+  "description": "Adds a menu option as well as hotkey (_Ctrl + G_) to turn the visual canvas grid on and off.",
+  "main": "index.js",
+  "scripts": {
+    "all": "run-s bundle",
+    "bundle": "webpack",
+    "dev": "webpack -w",
+    "prepublishOnly": "run-s bundle"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/hkupitz/camunda-modeler-toggle-canvas-grid-plugin"
+  },
+  "keywords": [
+    "camunda",
+	"canvas",
+	"grid",
+    "modeler",
+    "plugin"
+  ],
+  "author": "Hendrik Kupitz",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "camunda-modeler-plugin-helpers": "^5.1.0",
+    "eslint": "^8.54.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-bpmn-io": "^1.0.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "files": [
+    "client",
+    "menu",
+    "index.js"
+  ]
+}
